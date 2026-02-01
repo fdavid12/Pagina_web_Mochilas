@@ -175,6 +175,12 @@ body, ul, li, p, a, label, input, div {
 @media (min-width: 768px) {
   #templatemo_main_nav .navbar-nav {max-width: 450px;}
  }
+ /* Quitar efecto gris de las marcas / colecciones */
+.tempaltemo-carousel img {
+    filter: none !important;
+    opacity: 1 !important;
+}
+
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
